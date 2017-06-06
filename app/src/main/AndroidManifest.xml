@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xir5n30.remidiuts.telkomschid.remidiuts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SwipeViewActivity"
+            android:label="@string/title_activity_swipe_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActionTabsActivity"
+            android:label="@string/title_activity_action_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActionSpinnerActivity"
+            android:label="@string/title_activity_action_spinner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
